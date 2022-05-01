@@ -1,0 +1,19 @@
+django-admin startproject "имя" .
+
+Запуск локального сервера
+python manage.py runserver
+
+python manage.py help
+
+python manage.py startapp "имя"
+
+***
+cd E:\Python\new_pr
+venv\Scripts\activate.ps1
+python manage.py runserver
+***
+python manage.py 
+    runserver
+    migrate
+    createsuperuser
+    makemigrations

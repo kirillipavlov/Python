@@ -1,0 +1,22 @@
+Создание виртуального окружения
+https://devpractice.ru/python-lesson-17-virtual-envs/
+
+Установка virtualenv
+pip install virtualenv
+
+Создание окружения
+virtualenv PRG1
+Активация
+PRG1\Scripts\activate.bat
+Деактивация
+PRG1\Scripts\deactivate.bat
+
+Без установки дополнительного пакета
+
+venv
+Создание
+python -m venv PRG2
+Активация
+PRG2\Scripts\activate.bat
+Деактивация
+deactivate.bat
