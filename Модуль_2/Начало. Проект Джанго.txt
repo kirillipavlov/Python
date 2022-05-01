@@ -17,5 +17,3 @@ python manage.py
     migrate
     createsuperuser
     makemigrations
-
-66
