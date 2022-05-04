@@ -1,9 +1,9 @@
 #from django.shortcuts import render
 
 # Create your views here.
-from django.http import HttpResponse, HttpResponseRedirect, HttpResponseNotFound
+from django.http import HttpResponse, HttpResponseRedirect, HttpResponseNotFound, StreamingHttpResponse
 from django.urls import reverse
-
+sd
 from .models import Product
 
 from django.core.exceptions import ObjectDoesNotExist
