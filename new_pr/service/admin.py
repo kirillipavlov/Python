@@ -11,7 +11,7 @@ admin.site.register(Bin)
 
 @admin.register(Product) #декоратор
 class ProductAdmin(admin.ModelAdmin):
-    list_display= ['title','coast']
+    list_display= ['id','title','coast']
     fields = ['title', 'coast'] #выводимые поля внутри карточки
     list_filter = ['coast'] #фильрация по полю
     search_fields = ['title'] #поиск по полю
